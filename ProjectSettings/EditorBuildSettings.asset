@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TextSphere_Test.unity
+    guid: 6f7d973cbb147462b91f0e5baf704a9f
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b6d08356d7c70465299077184c6a4faa,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3d2271fafbb4f416bad12808041dc5df,
+      type: 2}
