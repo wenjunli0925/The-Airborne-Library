@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Rotation : MonoBehaviour
 {
     public int xdirection;
@@ -25,6 +26,6 @@ public class Rotation : MonoBehaviour
     void Update()
     {
 
-        transform.Rotate(new Vector3(xRotation, yRotation, zRotation) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, yRotation, 0) * Time.deltaTime);
     }
 }
