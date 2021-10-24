@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &67789122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -57}
+  m_AnchoredPosition: {x: 1, y: -425}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67789123
@@ -204,7 +204,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1280855776}
-        m_MethodName: SetPlanMaterail
+        m_MethodName: SetPlaneMaterail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1280855776}
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -678,6 +689,8 @@ MonoBehaviour:
   planeMat: {fileID: 2100000, guid: 25786341cdf3d4222914e19762c516a7, type: 2}
   planePrefab: {fileID: 4914585957584129677, guid: e5fc462ad51184232a89ef50fd58640d,
     type: 3}
+  SetOcclusionButton: {fileID: 2091777117}
+  SetPlaneButton: {fileID: 67789121}
 --- !u!4 &1280855777
 Transform:
   m_ObjectHideFlags: 0
@@ -1089,6 +1102,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1280855776}
         m_MethodName: SetOcclusionMaterail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1280855776}
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

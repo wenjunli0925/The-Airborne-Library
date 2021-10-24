@@ -8,6 +8,8 @@ public class PlaneSetupManager : MonoBehaviour
     public ARPlaneManager planeManager;
     public Material occlusionMat, planeMat;
     public GameObject planePrefab;
+    public GameObject SetOcclusionButton;
+    public GameObject SetPlaneButton;
 
     public void SetOcclusionMaterail()
     {
@@ -19,7 +21,7 @@ public class PlaneSetupManager : MonoBehaviour
         }
     }
 
-    public void SetPlanMaterail()
+    public void SetPlaneMaterail()
     {
         planePrefab.GetComponent<Renderer>().material = planeMat;
 
@@ -27,6 +29,12 @@ public class PlaneSetupManager : MonoBehaviour
         {
             plane.GetComponent<Renderer>().material = planeMat;
         }
+    }
+
+    public void disableButton()
+    {
+        SetOcclusionButton.SetActive(false);
+        SetPlaneButton.SetActive(false);
     }
 
     
