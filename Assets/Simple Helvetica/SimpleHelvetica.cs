@@ -52,7 +52,7 @@ public class SimpleHelvetica : MonoBehaviour {
 		
 #if !UNITY_3_4 && !UNITY_3_5
 		//disable _Alphabets and all children under it to remove them from being seen.
-		transform.Find("_Alphabets").gameObject.SetActive(false);
+		//transform.Find("_Alphabets").gameObject.SetActive(false);
 		
 #else
 		//disable _Alphabets and all children under it to remove them from being seen.
