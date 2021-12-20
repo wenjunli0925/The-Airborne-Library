@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Prototype_2.unity
     guid: b8f053edacc174bc3bb51d6bc1220781
+  - enabled: 0
+    path: Assets/Scenes/Prototype_3.unity
+    guid: 120551074fdf34e8d879ecadeed86351
+  - enabled: 1
+    path: Assets/Scenes/Prototype_4.unity
+    guid: 591688f0f213f4ccaaff68dc297a34bc
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b6d08356d7c70465299077184c6a4faa,
       type: 2}

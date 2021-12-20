@@ -17,9 +17,9 @@ public class Rotation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xRotation = Random.Range(0, xdirection);
-        yRotation = Random.Range(0, ydirection);
-        zRotation = Random.Range(0, zdirection);
+        xRotation = xdirection;
+        yRotation = ydirection;
+        zRotation = zdirection;
     }
 
     // Update is called once per frame

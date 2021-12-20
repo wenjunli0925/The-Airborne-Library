@@ -1252,3 +1252,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091777117}
   m_CullTransparentMesh: 0
+--- !u!1001 &8385542627993676052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5148699
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.27581668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2674991055087801455, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3258933342940838115, guid: d927533c8722c4407aafa14a05bc75c3,
+        type: 3}
+      propertyPath: m_Name
+      value: Text Rings_2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d927533c8722c4407aafa14a05bc75c3, type: 3}
